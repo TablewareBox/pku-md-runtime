@@ -85,11 +85,11 @@ RUN set -eu; \
           /tmp/pku-md-runtime/python/_mpidplugin.cpython-311-x86_64-linux-gnu.so \
           /home/changjh/miniconda3/envs/md/lib/python3.11/site-packages/; \
     cp -a /tmp/pku-md-runtime/python/mpidplugin.py /home/changjh/MD_projects/ADMPPmeOpenMMPlugin/mpidplugin.py; \
-    sha256sum -c <<'EOF'
-15a5265f1afe596fd3ba5f8e9661fbf7e2bf9c64af1b36e270c7e4b898881bef  /home/changjh/MD_projects/DMFF/dmff/admp/pme.py
-19d316563e444071bdd97ed97ae485bd470db529fa4e3e17684ba3a95d808f01  /home/changjh/miniconda3/envs/md/lib/libADMPPmePlugin.so
-6e43000c41a354928f210cd4a90ec08dcddf9340657268a5fb368d1587216491  /home/changjh/miniconda3/envs/md/lib/plugins/libADMPPmePluginCUDA.so
-EOF
+    printf '%s\n' \
+      '15a5265f1afe596fd3ba5f8e9661fbf7e2bf9c64af1b36e270c7e4b898881bef  /home/changjh/MD_projects/DMFF/dmff/admp/pme.py' \
+      '19d316563e444071bdd97ed97ae485bd470db529fa4e3e17684ba3a95d808f01  /home/changjh/miniconda3/envs/md/lib/libADMPPmePlugin.so' \
+      '6e43000c41a354928f210cd4a90ec08dcddf9340657268a5fb368d1587216491  /home/changjh/miniconda3/envs/md/lib/plugins/libADMPPmePluginCUDA.so' \
+      | sha256sum -c -; \
     rm -rf /tmp/pku-md-runtime
 
 RUN bash -lc "set -euo pipefail; \
