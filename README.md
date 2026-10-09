@@ -1,6 +1,12 @@
 # pku-md-runtime
 
-公开输入，供 PKU 电解液生产模拟镜像在别处构建。玻尔的 Dockerfile 构建不能 `COPY` 本地文件，所以构建机用 `git clone` 取这一份。
+公开输入，供 PKU 电解液生产模拟镜像在别处构建。`Dockerfile` 不使用构建上下文：它把本仓库的 `RUNTIME_REV` 克隆进镜像，再放到生产脚本使用的绝对路径上。玻尔把 `Dockerfile` 的内容贴进「基于 Dockerfile」即可。
+
+```bash
+docker build --platform linux/amd64 -t pku-md:20261010 https://github.com/TablewareBox/pku-md-runtime.git
+```
+
+当前 `RUNTIME_REV` 是 `9f927eb`。插件、力场、盒子或 `bridge/` 有改动时要一起改这个参数。
 
 生产入口是 `bridge/run_merged_production.sh`。它和下面这些 Python 文件是服务器上正在用的副本，导入链到此为止：`production_merged_sr.py`、`merged_aligned_sr.py`、`production_reporters.py`、`stability_hypotheses.py`、`exchange_hardcore.py`、`dmff_dispersion.py`、`dmff_qqtt.py`、`add_slater_custom.py`。三条队列脚本 `submit_ready_{nvt,2fs,4fs}.sh` 也在 `bridge/`。
 
