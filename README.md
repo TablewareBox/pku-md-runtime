@@ -6,7 +6,7 @@
 docker build --platform linux/amd64 -t pku-md:20261010 https://github.com/TablewareBox/pku-md-runtime.git
 ```
 
-当前 `RUNTIME_REV` 是 `9f927eb`。插件、力场、盒子或 `bridge/` 有改动时要一起改这个参数。镜像里的脚本要包含这次的路径改动之后，玻尔任务才能把结果写回工作目录。
+当前 `RUNTIME_REV` 是 `deedb81`。插件、力场、盒子或 `bridge/` 有改动时要一起改这个参数。
 
 生产入口是 `bridge/run_merged_production.sh`。它和下面这些 Python 文件是服务器上正在用的副本，导入链到此为止：`production_merged_sr.py`、`merged_aligned_sr.py`、`production_reporters.py`、`stability_hypotheses.py`、`exchange_hardcore.py`、`dmff_dispersion.py`、`dmff_qqtt.py`、`add_slater_custom.py`。三条队列脚本 `submit_ready_{nvt,2fs,4fs}.sh` 也在 `bridge/`。
 
