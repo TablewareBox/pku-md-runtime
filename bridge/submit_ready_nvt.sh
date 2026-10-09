@@ -5,8 +5,18 @@
 # One worker per GPU. A finished prod.log containing "status": "completed" is skipped.
 set -u
 ROOT=/home/changjh/MD_projects/PKUGraduateThesis
-PDBROOT=/home/changjh/MD_projects/DeePDih/artifacts/exp_systems
-OUTROOT=${OUTROOT:-$ROOT/runs/ready_nvt_1p2ns}
+# shellcheck source=resolve_exp_system.sh
+source "$ROOT/bridge/resolve_exp_system.sh"
+if [[ -z "${OUTROOT:-}" ]]; then
+  if [[ -n "${RESULT_DIR:-}" ]]; then
+    case "$RESULT_DIR" in
+      /*) OUTROOT=$RESULT_DIR/ready_nvt_1p2ns ;;
+      *) OUTROOT=$PWD/$RESULT_DIR/ready_nvt_1p2ns ;;
+    esac
+  else
+    OUTROOT=$ROOT/runs/ready_nvt_1p2ns
+  fi
+fi
 EQ_STEPS=400000
 PROD_STEPS=2000000
 REPORT=2000
@@ -25,7 +35,7 @@ while IFS=$'\t' read -r sid pdb temp seed eq_ensemble prod_ensemble; do
   fi
   echo "START eq $sid T=$temp seed=$seed gpu=$GPU $(date +%T)"
   if ! bash "$ROOT/bridge/run_merged_production.sh" --gpu "$GPU" \
-      --pdb "$PDBROOT/$pdb" --temperature-K "$temp" --seed "$seed" --ensemble "$eq_ensemble" \
+      --pdb "$(resolve_exp_system "$pdb")" --temperature-K "$temp" --seed "$seed" --ensemble "$eq_ensemble" \
       --steps "$EQ_STEPS" --report-interval "$REPORT" --checkpoint-interval 100000 \
       --output-prefix "$out/eq" > "$out/eq.log" 2>&1; then
     echo "FAIL eq launch $sid T=$temp seed=$seed"
@@ -37,7 +47,7 @@ while IFS=$'\t' read -r sid pdb temp seed eq_ensemble prod_ensemble; do
   fi
   echo "START prod $sid T=$temp seed=$seed gpu=$GPU $(date +%T)"
   if ! bash "$ROOT/bridge/run_merged_production.sh" --gpu "$GPU" \
-      --pdb "$PDBROOT/$pdb" --temperature-K "$temp" --seed "$seed" --ensemble "$prod_ensemble" \
+      --pdb "$(resolve_exp_system "$pdb")" --temperature-K "$temp" --seed "$seed" --ensemble "$prod_ensemble" \
       --steps "$PROD_STEPS" --no-relax --state-in "$out/eq.final.state.xml" \
       --report-interval "$REPORT" --checkpoint-interval 200000 \
       --output-prefix "$out/prod" > "$out/prod.log" 2>&1; then

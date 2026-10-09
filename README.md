@@ -6,7 +6,7 @@
 docker build --platform linux/amd64 -t pku-md:20261010 https://github.com/TablewareBox/pku-md-runtime.git
 ```
 
-当前 `RUNTIME_REV` 是 `9f927eb`。插件、力场、盒子或 `bridge/` 有改动时要一起改这个参数。
+当前 `RUNTIME_REV` 是 `9f927eb`。插件、力场、盒子或 `bridge/` 有改动时要一起改这个参数。镜像里的脚本要包含这次的路径改动之后，玻尔任务才能把结果写回工作目录。
 
 生产入口是 `bridge/run_merged_production.sh`。它和下面这些 Python 文件是服务器上正在用的副本，导入链到此为止：`production_merged_sr.py`、`merged_aligned_sr.py`、`production_reporters.py`、`stability_hypotheses.py`、`exchange_hardcore.py`、`dmff_dispersion.py`、`dmff_qqtt.py`、`add_slater_custom.py`。三条队列脚本 `submit_ready_{nvt,2fs,4fs}.sh` 也在 `bridge/`。
 
@@ -48,6 +48,23 @@ cp -a dmff-overlay/dmff/. DMFF/dmff/
 ```
 
 覆盖之后 `dmff/admp/pme.py` 的 SHA256 应为 `15a5265f1afe596fd3ba5f8e9661fbf7e2bf9c64af1b36e270c7e4b898881bef`。
+
+## 玻尔 Batch Job
+
+`bohr batchjob submit` 把 `--input` 打成 zip，在容器里解压后作为工作目录，再执行 `--command`。命令用 `bash run.sh`。结果只回收 `--out-file` 点名的路径，写到镜像里的 `runs/` 不会出现在下载包里。
+
+`bohr/input/run.sh` 把日志、检查点和轨迹写到工作目录的 `results/`，结束时打成 `results.tar`。`job.env` 决定跑法：默认 `MODE=smoke` 是 200 步（0.1 ps）。队列把 `MODE` 改成 `nvt`、`2fs` 或 `4fs`，并在同一目录放 `list.tsv`。
+
+盒子默认用镜像里的 `exp_systems`。输入目录里如果有 `exp_systems/`，或者 `job.env` 设置了 `EXP_SYSTEMS`，pdb 列和 `--pdb` 改从那里找。绝对路径保持不变；`artifacts/exp_systems/名称.pdb` 会去掉这个前缀。
+
+```bash
+bohr batchjob machine list --choose-type gpu
+IMAGE=<镜像中心的完整地址> MACHINE_TYPE=<上面列出的机型> bash bohr/submit.sh
+IMAGE=<镜像地址> MACHINE_TYPE=<机型> SUBMIT=1 bash bohr/submit.sh
+bohr batchjob download <job_id> --dest ./result
+```
+
+`submit.sh` 默认 `--dry-run`，不创建任务。`download` 的目标目录必须是还不存在的新目录。解压后读取 `results.tar`。机型名称以本机 `bohr batchjob submit --help` 为准。
 
 ## 校验
 

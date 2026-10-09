@@ -9,8 +9,18 @@
 # One worker per GPU. GPU 0 is left to the 2 fs convergence extension.
 set -u
 ROOT=/home/changjh/MD_projects/PKUGraduateThesis
-PDBROOT=/home/changjh/MD_projects/DeePDih
-OUTROOT=${OUTROOT:-$ROOT/runs/ready_4fs_1p2ns}
+# shellcheck source=resolve_exp_system.sh
+source "$ROOT/bridge/resolve_exp_system.sh"
+if [[ -z "${OUTROOT:-}" ]]; then
+  if [[ -n "${RESULT_DIR:-}" ]]; then
+    case "$RESULT_DIR" in
+      /*) OUTROOT=$RESULT_DIR/ready_4fs_1p2ns ;;
+      *) OUTROOT=$PWD/$RESULT_DIR/ready_4fs_1p2ns ;;
+    esac
+  else
+    OUTROOT=$ROOT/runs/ready_4fs_1p2ns
+  fi
+fi
 EQ_STEPS=50000
 PROD_STEPS=250000
 REPORT=250
@@ -36,7 +46,7 @@ while IFS=$'\t' read -r sid pdb temp seed eq_ensemble prod_ensemble pressure for
     else
       echo "START eq $key gpu=$GPU $(date +%T)"
       if bash "$ROOT/bridge/run_merged_production.sh" --gpu "$GPU" \
-          --pdb "$PDBROOT/$pdb" --forcefield "$forcefield" \
+          --pdb "$(resolve_exp_system "$pdb")" --forcefield "$forcefield" \
           --temperature-K "$temp" --seed "$seed" --ensemble "$eq_ensemble" \
           --pressure-bar "$pressure" --hardcore r12 --timestep-fs "$TIMESTEP" \
           --steps "$EQ_STEPS" --report-interval "$REPORT" --checkpoint-interval "$EQ_CHECKPOINT" \
@@ -62,7 +72,7 @@ while IFS=$'\t' read -r sid pdb temp seed eq_ensemble prod_ensemble pressure for
   fi
   echo "START prod $key $property gpu=$GPU $(date +%T)"
   if bash "$ROOT/bridge/run_merged_production.sh" --gpu "$GPU" \
-      --pdb "$PDBROOT/$pdb" --forcefield "$forcefield" \
+      --pdb "$(resolve_exp_system "$pdb")" --forcefield "$forcefield" \
       --temperature-K "$temp" --seed "$seed" --ensemble "$prod_ensemble" \
       --pressure-bar "$pressure" --hardcore r12 --timestep-fs "$TIMESTEP" \
       --steps "$PROD_STEPS" --no-relax --state-in "$base/eq.final.state.xml" \
