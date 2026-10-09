@@ -10,7 +10,8 @@
 # OpenMM stays on the conda-forge 8.4 release. Do not use 8.6.1, and do not
 # set JAX_PLATFORMS=gpu. Do not swap in another plugin binary.
 
-FROM ubuntu:24.04
+# Docker Hub's CloudFront endpoint times out from the Bohrium builder.
+FROM docker.m.daocloud.io/library/ubuntu:24.04
 
 ARG RUNTIME_REPO=https://github.com/TablewareBox/pku-md-runtime.git
 ARG RUNTIME_REV=deedb81ed5b74f1db1ffa82aa81d16f57a5d7fe5
