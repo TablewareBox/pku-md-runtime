@@ -28,7 +28,7 @@ RUN sed -i \
         -e 's|http://security.ubuntu.com|http://mirrors.aliyun.com|g' \
         /etc/apt/sources.list.d/ubuntu.sources \
     && apt-get update && apt-get install -y --no-install-recommends \
-        ca-certificates curl git bzip2 \
+        ca-certificates curl git bzip2 build-essential \
     && rm -rf /var/lib/apt/lists/*
 
 ENV PATH=${CONDA_DIR}/envs/md/bin:${CONDA_DIR}/bin:${PATH}
