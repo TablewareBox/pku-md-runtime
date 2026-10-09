@@ -1,0 +1,21 @@
+{
+  "system_id": "BF-166EC-166DMC-25LiTFSI",
+  "counts": {
+    "EC": 166,
+    "DMC": 166,
+    "Li": 25,
+    "TFSI": 25
+  },
+  "T": [
+    293.15
+  ],
+  "density": 1.28,
+  "exp": "sigma=9.00 mS/cm at 293 K; packing density estimated",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-166EC-166DMC-25LiTFSI.pdb",
+  "box_A": 37.55594597964213,
+  "atoms": 4052,
+  "bonds": 3836,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.1520000000000001
+}

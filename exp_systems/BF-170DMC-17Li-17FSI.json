@@ -1,0 +1,20 @@
+{
+  "system_id": "BF-170DMC-17Li-17FSI",
+  "counts": {
+    "DMC": 170,
+    "Li": 17,
+    "FSI": 17
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.18,
+  "exp": "rho=1.18 g/mL; ratio DMC:LiFSI 10:1",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-170DMC-17Li-17FSI.pdb",
+  "box_A": 30.69376527235921,
+  "atoms": 2210,
+  "bonds": 2006,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.062
+}

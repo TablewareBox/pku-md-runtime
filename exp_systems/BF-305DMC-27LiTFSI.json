@@ -1,0 +1,22 @@
+{
+  "system_id": "BF-305DMC-27LiTFSI",
+  "counts": {
+    "DMC": 305,
+    "Li": 27,
+    "TFSI": 27
+  },
+  "T": [
+    293.15,
+    303.15,
+    313.15
+  ],
+  "density": 1.18,
+  "exp": "sigma DMC:LiTFSI 305:27; packing density estimated",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-305DMC-27LiTFSI.pdb",
+  "box_A": 38.0477172266451,
+  "atoms": 4092,
+  "bonds": 3733,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.062
+}

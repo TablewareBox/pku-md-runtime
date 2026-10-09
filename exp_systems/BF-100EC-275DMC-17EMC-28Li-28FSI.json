@@ -1,0 +1,22 @@
+{
+  "system_id": "BF-100EC-275DMC-17EMC-28Li-28FSI",
+  "counts": {
+    "DMC": 275,
+    "EC": 100,
+    "EMC": 17,
+    "Li": 28,
+    "FSI": 28
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.206,
+  "exp": "rho=1.206 g/mL; ratio DMC:EC:EMC:LiFSI 275:100:17:28",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-100EC-275DMC-17EMC-28Li-28FSI.pdb",
+  "box_A": 39.59836894541355,
+  "atoms": 4835,
+  "bonds": 4487,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.0854
+}

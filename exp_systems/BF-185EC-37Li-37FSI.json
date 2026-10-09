@@ -1,0 +1,20 @@
+{
+  "system_id": "BF-185EC-37Li-37FSI",
+  "counts": {
+    "EC": 185,
+    "Li": 37,
+    "FSI": 37
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.5,
+  "exp": "rho=1.5 g/mL; ratio EC:LiFSI 5:1",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-185EC-37Li-37FSI.pdb",
+  "box_A": 30.564239928133937,
+  "atoms": 2220,
+  "bonds": 2146,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.35
+}

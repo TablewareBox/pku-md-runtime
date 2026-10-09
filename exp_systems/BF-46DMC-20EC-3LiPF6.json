@@ -1,0 +1,21 @@
+{
+  "system_id": "BF-46DMC-20EC-3LiPF6",
+  "counts": {
+    "EC": 200,
+    "DMC": 460,
+    "Li": 30,
+    "PF6": 30
+  },
+  "T": [
+    313.15
+  ],
+  "density": 1.12,
+  "exp": "eta=1.18 cP (313 K)",
+  "pdb": "artifacts/exp_systems/BF-46DMC-20EC-3LiPF6.pdb",
+  "box_A": 47.14421712684618,
+  "atoms": 7760,
+  "bonds": 7240,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.0080000000000002
+}

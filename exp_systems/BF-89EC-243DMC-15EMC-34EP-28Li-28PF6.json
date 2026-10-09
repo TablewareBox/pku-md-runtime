@@ -1,0 +1,23 @@
+{
+  "system_id": "BF-89EC-243DMC-15EMC-34EP-28Li-28PF6",
+  "counts": {
+    "DMC": 243,
+    "EC": 89,
+    "EP": 34,
+    "EMC": 15,
+    "Li": 28,
+    "PF6": 28
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.178,
+  "exp": "rho=1.178 g/mL; ratio DMC:EC:EP:EMC:LiPF6 243:89:34:15:28",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-89EC-243DMC-15EMC-34EP-28Li-28PF6.pdb",
+  "box_A": 39.387663720534206,
+  "atoms": 4833,
+  "bonds": 4485,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.0602
+}

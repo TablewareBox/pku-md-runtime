@@ -1,0 +1,18 @@
+{
+  "system_id": "PURE-170PS",
+  "counts": {
+    "PS": 170
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.392,
+  "exp": "PhyNEO Fig 3a; packing density 1.392 g/mL",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/PURE-170PS.pdb",
+  "box_A": 30.19163660911458,
+  "atoms": 2210,
+  "bonds": 2210,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.2528
+}

@@ -1,0 +1,21 @@
+{
+  "system_id": "BF-10EC-10DMC-2LiFSI",
+  "counts": {
+    "EC": 200,
+    "DMC": 200,
+    "Li": 40,
+    "FSI": 40
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.28,
+  "exp": "eta=3.4 cP; sigma=14.0 mS/cm",
+  "pdb": "artifacts/exp_systems/BF-10EC-10DMC-2LiFSI.pdb",
+  "box_A": 39.60903242516207,
+  "atoms": 4800,
+  "bonds": 4520,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.1520000000000001
+}

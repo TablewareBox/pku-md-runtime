@@ -1,0 +1,21 @@
+{
+  "system_id": "BF-170EC-388DMC-75Li-75PF6",
+  "counts": {
+    "DMC": 388,
+    "EC": 170,
+    "Li": 75,
+    "PF6": 75
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.268,
+  "exp": "rho=1.268 g/mL; ratio DMC:EC:LiPF6 388:170:75",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-170EC-388DMC-75Li-75PF6.pdb",
+  "box_A": 44.68362319325175,
+  "atoms": 6956,
+  "bonds": 6418,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.1412
+}

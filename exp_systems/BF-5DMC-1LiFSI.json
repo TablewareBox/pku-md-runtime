@@ -1,0 +1,20 @@
+{
+  "system_id": "BF-5DMC-1LiFSI",
+  "counts": {
+    "DMC": 300,
+    "Li": 60,
+    "FSI": 60
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.25,
+  "exp": "eta=3.9 cP; sigma=12.2 mS/cm",
+  "pdb": "artifacts/exp_systems/BF-5DMC-1LiFSI.pdb",
+  "box_A": 38.362113470902585,
+  "atoms": 4200,
+  "bonds": 3780,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.125
+}

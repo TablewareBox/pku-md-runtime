@@ -1,0 +1,22 @@
+{
+  "system_id": "MIX-140EC-60EMC",
+  "counts": {
+    "EC": 140,
+    "EMC": 60
+  },
+  "T": [
+    280.0,
+    300.0,
+    320.0,
+    340.0
+  ],
+  "density": 1.2265,
+  "exp": "PhyNEO Fig 3c EC:EMC=7:3; packing density is a mole-weighted estimate",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/MIX-140EC-60EMC.pdb",
+  "box_A": 30.344823084868448,
+  "atoms": 2300,
+  "bonds": 2240,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.10385
+}

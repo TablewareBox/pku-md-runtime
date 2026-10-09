@@ -1,0 +1,20 @@
+{
+  "system_id": "BF-166DEC-20LiPF6",
+  "counts": {
+    "DEC": 166,
+    "Li": 20,
+    "PF6": 20
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.1,
+  "exp": "PhyNEO Fig 3d ~1 mol/L LiPF6 in DEC; packing density estimated",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-166DEC-20LiPF6.pdb",
+  "box_A": 33.61585595201277,
+  "atoms": 3148,
+  "bonds": 2942,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 0.9900000000000001
+}

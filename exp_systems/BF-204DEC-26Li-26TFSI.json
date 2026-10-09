@@ -1,0 +1,25 @@
+{
+  "system_id": "BF-204DEC-26Li-26TFSI",
+  "counts": {
+    "DEC": 204,
+    "Li": 26,
+    "TFSI": 26
+  },
+  "T": [
+    293.15,
+    303.15,
+    313.15,
+    323.15,
+    333.15,
+    343.15
+  ],
+  "density": 1.1,
+  "exp": "sigma DEC:LiTFSI 204:26 at 293-343 K; packing density estimated",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-204DEC-26Li-26TFSI.pdb",
+  "box_A": 37.548778627462376,
+  "atoms": 4088,
+  "bonds": 3832,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 0.9900000000000001
+}

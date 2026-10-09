@@ -1,0 +1,21 @@
+{
+  "system_id": "BF-123EC-280DMC-36Li-36FSI",
+  "counts": {
+    "DMC": 280,
+    "EC": 123,
+    "Li": 36,
+    "FSI": 36
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.242,
+  "exp": "rho=1.242 g/mL; ratio DMC:EC:LiFSI 280:123:36",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-123EC-280DMC-36Li-36FSI.pdb",
+  "box_A": 39.908923024437804,
+  "atoms": 4950,
+  "bonds": 4598,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.1178000000000001
+}

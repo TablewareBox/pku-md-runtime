@@ -1,0 +1,23 @@
+{
+  "system_id": "BF-333DMC-15LiPF6",
+  "counts": {
+    "DMC": 333,
+    "Li": 15,
+    "PF6": 15
+  },
+  "T": [
+    283.15,
+    293.15,
+    303.15,
+    313.15
+  ],
+  "density": 1.11,
+  "exp": "sigma DMC:LiPF6 333:15; packing density estimated",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-333DMC-15LiPF6.pdb",
+  "box_A": 37.71527233796038,
+  "atoms": 4116,
+  "bonds": 3753,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 0.9990000000000001
+}

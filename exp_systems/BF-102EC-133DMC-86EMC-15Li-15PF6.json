@@ -1,0 +1,22 @@
+{
+  "system_id": "BF-102EC-133DMC-86EMC-15Li-15PF6",
+  "counts": {
+    "DMC": 133,
+    "EC": 102,
+    "EMC": 86,
+    "Li": 15,
+    "PF6": 15
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.174,
+  "exp": "rho=1.174 g/mL; ratio DMC:EC:EMC:LiPF6 133:102:86:15",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-102EC-133DMC-86EMC-15Li-15PF6.pdb",
+  "box_A": 36.98598428462257,
+  "atoms": 4026,
+  "bonds": 3777,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.0566
+}

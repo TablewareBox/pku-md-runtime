@@ -1,0 +1,20 @@
+{
+  "system_id": "BF-165EC-55Li-55FSI",
+  "counts": {
+    "EC": 165,
+    "Li": 55,
+    "FSI": 55
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.57,
+  "exp": "rho=1.57 g/mL; ratio EC:LiFSI 3:1",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-165EC-55Li-55FSI.pdb",
+  "box_A": 30.78191349672273,
+  "atoms": 2200,
+  "bonds": 2090,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.413
+}

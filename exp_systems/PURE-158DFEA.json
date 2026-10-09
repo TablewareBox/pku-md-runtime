@@ -1,0 +1,18 @@
+{
+  "system_id": "PURE-158DFEA",
+  "counts": {
+    "DFEA": 158
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.24,
+  "exp": "PhyNEO Fig 3a; packing density 1.24 g/mL (estimated; figure has no table)",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/PURE-158DFEA.pdb",
+  "box_A": 30.783672143635446,
+  "atoms": 2212,
+  "bonds": 2054,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.116
+}

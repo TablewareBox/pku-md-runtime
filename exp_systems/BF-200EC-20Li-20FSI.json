@@ -1,0 +1,20 @@
+{
+  "system_id": "BF-200EC-20Li-20FSI",
+  "counts": {
+    "EC": 200,
+    "Li": 20,
+    "FSI": 20
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.43,
+  "exp": "rho=1.43 g/mL; ratio EC:LiFSI 10:1",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-200EC-20Li-20FSI.pdb",
+  "box_A": 30.202706481384794,
+  "atoms": 2200,
+  "bonds": 2160,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.287
+}

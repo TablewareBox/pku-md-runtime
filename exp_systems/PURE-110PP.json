@@ -1,0 +1,18 @@
+{
+  "system_id": "PURE-110PP",
+  "counts": {
+    "PP": 110
+  },
+  "T": [
+    298.15
+  ],
+  "density": 0.881,
+  "exp": "PhyNEO Fig 3a; packing density 0.881 g/mL",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/PURE-110PP.pdb",
+  "box_A": 29.91036211963013,
+  "atoms": 2200,
+  "bonds": 2090,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 0.7929
+}

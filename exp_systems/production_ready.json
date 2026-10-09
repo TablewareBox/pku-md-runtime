@@ -1,0 +1,397 @@
+[
+  {
+    "id": "BF-10EC-10DMC-2LiFSI",
+    "atoms": 4800,
+    "box_A": 39.60903242516207,
+    "packing_density_g_mL": 1.1520000000000001,
+    "target_density_g_mL": 1.28,
+    "T_K": [
+      298.15
+    ],
+    "exp": "eta=3.4 cP; sigma=14.0 mS/cm",
+    "counts": {
+      "EC": 200,
+      "DMC": 200,
+      "Li": 40,
+      "FSI": 40
+    },
+    "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-10EC-10DMC-2LiFSI.pdb",
+    "smoke_298": {
+      "potential_kj_mol": -85198.23972719893,
+      "max_force_kj_mol_nm": 4942.171380121368,
+      "time_ps": 3.999999999999781,
+      "T_last_K": 310.8802991373897,
+      "status": "completed"
+    },
+    "smoke_333": null
+  },
+  {
+    "id": "BF-10EC-10DMC-2LiPF6",
+    "atoms": 4720,
+    "box_A": 39.07192991610498,
+    "packing_density_g_mL": 1.161,
+    "target_density_g_mL": 1.29,
+    "T_K": [
+      298.15,
+      333.15
+    ],
+    "exp": "sigma=11.7/19.5 mS/cm (298/333 K); eta=3.4 cP",
+    "counts": {
+      "EC": 200,
+      "DMC": 200,
+      "Li": 40,
+      "PF6": 40
+    },
+    "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-10EC-10DMC-2LiPF6.pdb",
+    "smoke_298": {
+      "potential_kj_mol": -32870.97164414861,
+      "max_force_kj_mol_nm": 5717.647876820153,
+      "time_ps": 3.999999999999781,
+      "T_last_K": 311.1568574532646,
+      "status": "completed"
+    },
+    "smoke_333": {
+      "status": "completed",
+      "potential": -30964.580944458958,
+      "max_force": 5020.522650129678,
+      "T_last": 353.1374151716252
+    }
+  },
+  {
+    "id": "BF-13EC-13DMC-2LiPF6",
+    "atoms": 6040,
+    "box_A": 42.6044493060906,
+    "packing_density_g_mL": 1.125,
+    "target_density_g_mL": 1.25,
+    "T_K": [
+      298.15
+    ],
+    "exp": "sigma=12.0 mS/cm",
+    "counts": {
+      "EC": 260,
+      "DMC": 260,
+      "Li": 40,
+      "PF6": 40
+    },
+    "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-13EC-13DMC-2LiPF6.pdb",
+    "smoke_298": {
+      "potential_kj_mol": -46947.111550818656,
+      "max_force_kj_mol_nm": 6486.358817633054,
+      "time_ps": 3.999999999999781,
+      "T_last_K": 312.6555547658711,
+      "status": "completed"
+    },
+    "smoke_333": null
+  },
+  {
+    "id": "BF-13EC-13DMC-2LiTFSI",
+    "atoms": 6360,
+    "box_A": 43.450724746685836,
+    "packing_density_g_mL": 1.1700000000000002,
+    "target_density_g_mL": 1.3,
+    "T_K": [
+      298.15
+    ],
+    "exp": "sigma=9.0 mS/cm",
+    "counts": {
+      "EC": 260,
+      "DMC": 260,
+      "Li": 40,
+      "TFSI": 40
+    },
+    "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-13EC-13DMC-2LiTFSI.pdb",
+    "smoke_298": {
+      "potential_kj_mol": -95654.67170859152,
+      "max_force_kj_mol_nm": 4923.500211992414,
+      "time_ps": 3.999999999999781,
+      "T_last_K": 313.4499347621047,
+      "status": "completed"
+    },
+    "smoke_333": null
+  },
+  {
+    "id": "BF-170EC-153DMC-15EMC-34LiPF6",
+    "atoms": 4033,
+    "box_A": 37.18615781221001,
+    "packing_density_g_mL": 1.1457,
+    "target_density_g_mL": 1.273,
+    "T_K": [
+      298.15
+    ],
+    "exp": "rho=1.273 g/mL; eta=4.566 cP; sigma=12.175 mS/cm",
+    "counts": {
+      "EC": 170,
+      "DMC": 153,
+      "EMC": 15,
+      "Li": 34,
+      "PF6": 34
+    },
+    "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-170EC-153DMC-15EMC-34LiPF6.pdb",
+    "smoke_298": {
+      "potential_kj_mol": -27185.0640341537,
+      "max_force_kj_mol_nm": 5347.060571610365,
+      "time_ps": 3.999999999999781,
+      "T_last_K": 316.9249535542502,
+      "status": "completed"
+    },
+    "smoke_333": null
+  },
+  {
+    "id": "BF-170EC-166DMC-15LiPF6",
+    "atoms": 3812,
+    "box_A": 36.369785148737506,
+    "packing_density_g_mL": 1.1115000000000002,
+    "target_density_g_mL": 1.235,
+    "T_K": [
+      298.15
+    ],
+    "exp": "rho=1.235 g/mL; eta=2.219 cP; sigma=12.142 mS/cm",
+    "counts": {
+      "EC": 170,
+      "DMC": 166,
+      "Li": 15,
+      "PF6": 15
+    },
+    "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-170EC-166DMC-15LiPF6.pdb",
+    "smoke_298": {
+      "potential_kj_mol": -35987.056071020124,
+      "max_force_kj_mol_nm": 5311.9891454108465,
+      "time_ps": 3.999999999999781,
+      "T_last_K": 308.33251281520575,
+      "status": "completed"
+    },
+    "smoke_333": null
+  },
+  {
+    "id": "BF-23EC-1LiFSI",
+    "atoms": 4800,
+    "box_A": 39.155284155721425,
+    "packing_density_g_mL": 1.2240000000000002,
+    "target_density_g_mL": 1.36,
+    "T_K": [
+      298.15
+    ],
+    "exp": "eta=4.1 cP; sigma=8.7 mS/cm",
+    "counts": {
+      "EC": 460,
+      "Li": 20,
+      "FSI": 20
+    },
+    "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-23EC-1LiFSI.pdb",
+    "smoke_298": {
+      "potential_kj_mol": -83856.57567110306,
+      "max_force_kj_mol_nm": 5827.920310021397,
+      "time_ps": 3.999999999999781,
+      "T_last_K": 309.10857548347946,
+      "status": "completed"
+    },
+    "smoke_333": null
+  },
+  {
+    "id": "BF-249DMC-170EC-34LiPF6",
+    "atoms": 4960,
+    "box_A": 39.87141857148042,
+    "packing_density_g_mL": 1.1151000000000002,
+    "target_density_g_mL": 1.239,
+    "T_K": [
+      298.15
+    ],
+    "exp": "rho=1.239 g/mL; eta=2.778 cP",
+    "counts": {
+      "EC": 170,
+      "DMC": 249,
+      "Li": 34,
+      "PF6": 34
+    },
+    "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-249DMC-170EC-34LiPF6.pdb",
+    "smoke_298": {
+      "potential_kj_mol": -36586.11769429913,
+      "max_force_kj_mol_nm": 5539.053504276336,
+      "time_ps": 3.999999999999781,
+      "T_last_K": 322.7972909672934,
+      "status": "completed"
+    },
+    "smoke_333": null
+  },
+  {
+    "id": "BF-3EC-3DMC-2LiFSI",
+    "atoms": 3440,
+    "box_A": 36.06019339836701,
+    "packing_density_g_mL": 1.287,
+    "target_density_g_mL": 1.43,
+    "T_K": [
+      298.15
+    ],
+    "exp": "eta=36.9 cP; sigma=4.5 mS/cm",
+    "counts": {
+      "EC": 120,
+      "DMC": 120,
+      "Li": 80,
+      "FSI": 80
+    },
+    "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-3EC-3DMC-2LiFSI.pdb",
+    "smoke_298": {
+      "potential_kj_mol": -94145.26567555824,
+      "max_force_kj_mol_nm": 6865.472604205113,
+      "time_ps": 3.999999999999781,
+      "T_last_K": 315.63974601380363,
+      "status": "completed"
+    },
+    "smoke_333": null
+  },
+  {
+    "id": "BF-46DMC-20EC-12LiPF6",
+    "atoms": 8480,
+    "box_A": 48.24111446952238,
+    "packing_density_g_mL": 1.143,
+    "target_density_g_mL": 1.27,
+    "T_K": [
+      313.15
+    ],
+    "exp": "eta=5.10 cP (313 K)",
+    "counts": {
+      "EC": 200,
+      "DMC": 460,
+      "Li": 120,
+      "PF6": 120
+    },
+    "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-46DMC-20EC-12LiPF6.pdb",
+    "smoke_298": {
+      "potential_kj_mol": -23533.66780652347,
+      "max_force_kj_mol_nm": 5946.306472150791,
+      "time_ps": 3.999999999999781,
+      "T_last_K": 316.5808095815242,
+      "status": "completed"
+    },
+    "smoke_333": null
+  },
+  {
+    "id": "BF-46DMC-20EC-3LiPF6",
+    "atoms": 7760,
+    "box_A": 47.14421712684618,
+    "packing_density_g_mL": 1.0080000000000002,
+    "target_density_g_mL": 1.12,
+    "T_K": [
+      313.15
+    ],
+    "exp": "eta=1.18 cP (313 K)",
+    "counts": {
+      "EC": 200,
+      "DMC": 460,
+      "Li": 30,
+      "PF6": 30
+    },
+    "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-46DMC-20EC-3LiPF6.pdb",
+    "smoke_298": {
+      "potential_kj_mol": -66839.03181064522,
+      "max_force_kj_mol_nm": 5264.408113326216,
+      "time_ps": 3.999999999999781,
+      "T_last_K": 314.87505922198676,
+      "status": "completed"
+    },
+    "smoke_333": null
+  },
+  {
+    "id": "BF-46DMC-20EC-6LiPF6",
+    "atoms": 8000,
+    "box_A": 47.54695577620785,
+    "packing_density_g_mL": 1.053,
+    "target_density_g_mL": 1.17,
+    "T_K": [
+      313.15
+    ],
+    "exp": "eta=1.92 cP (313 K)",
+    "counts": {
+      "EC": 200,
+      "DMC": 460,
+      "Li": 60,
+      "PF6": 60
+    },
+    "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-46DMC-20EC-6LiPF6.pdb",
+    "smoke_298": {
+      "potential_kj_mol": -50748.35024037178,
+      "max_force_kj_mol_nm": 6072.05287491563,
+      "time_ps": 3.999999999999781,
+      "T_last_K": 312.51241032392363,
+      "status": "completed"
+    },
+    "smoke_333": null
+  },
+  {
+    "id": "BF-46DMC-20EC-9LiPF6",
+    "atoms": 8240,
+    "box_A": 47.91076930844174,
+    "packing_density_g_mL": 1.098,
+    "target_density_g_mL": 1.22,
+    "T_K": [
+      313.15
+    ],
+    "exp": "eta=3.21 cP (313 K)",
+    "counts": {
+      "EC": 200,
+      "DMC": 460,
+      "Li": 90,
+      "PF6": 90
+    },
+    "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-46DMC-20EC-9LiPF6.pdb",
+    "smoke_298": {
+      "potential_kj_mol": -35905.96305257855,
+      "max_force_kj_mol_nm": 6271.572990631241,
+      "time_ps": 3.999999999999781,
+      "T_last_K": 299.40460132076174,
+      "status": "completed"
+    },
+    "smoke_333": null
+  },
+  {
+    "id": "BF-5DMC-1LiFSI",
+    "atoms": 4200,
+    "box_A": 38.362113470902585,
+    "packing_density_g_mL": 1.125,
+    "target_density_g_mL": 1.25,
+    "T_K": [
+      298.15
+    ],
+    "exp": "eta=3.9 cP; sigma=12.2 mS/cm",
+    "counts": {
+      "DMC": 300,
+      "Li": 60,
+      "FSI": 60
+    },
+    "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-5DMC-1LiFSI.pdb",
+    "smoke_298": {
+      "potential_kj_mol": -83233.08640279662,
+      "max_force_kj_mol_nm": 6303.5026130431725,
+      "time_ps": 3.999999999999781,
+      "T_last_K": 317.28540554641467,
+      "status": "completed"
+    },
+    "smoke_333": null
+  },
+  {
+    "id": "BF-5EC-5DMC-2LiFSI",
+    "atoms": 2600,
+    "box_A": 32.49708619491459,
+    "packing_density_g_mL": 1.2240000000000002,
+    "target_density_g_mL": 1.36,
+    "T_K": [
+      298.15
+    ],
+    "exp": "eta=9.8 cP; sigma=9.8 mS/cm",
+    "counts": {
+      "EC": 100,
+      "DMC": 100,
+      "Li": 40,
+      "FSI": 40
+    },
+    "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-5EC-5DMC-2LiFSI.pdb",
+    "smoke_298": {
+      "potential_kj_mol": -57402.19960580474,
+      "max_force_kj_mol_nm": 5507.332036259372,
+      "time_ps": 3.999999999999781,
+      "T_last_K": 313.6261931635614,
+      "status": "completed"
+    },
+    "smoke_333": null
+  }
+]

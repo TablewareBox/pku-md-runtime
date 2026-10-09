@@ -1,0 +1,21 @@
+{
+  "system_id": "BF-115EC-115DMC-10Li-10FSI",
+  "counts": {
+    "EC": 115,
+    "DMC": 115,
+    "Li": 10,
+    "FSI": 10
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.24,
+  "exp": "rho=1.24 g/mL; ratio EC:DMC:LiFSI 23:23:2",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-115EC-115DMC-10Li-10FSI.pdb",
+  "box_A": 32.16114594926878,
+  "atoms": 2630,
+  "bonds": 2495,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.116
+}

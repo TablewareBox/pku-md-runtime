@@ -1,0 +1,22 @@
+{
+  "system_id": "BF-10EC-10DMC-2LiPF6",
+  "counts": {
+    "EC": 200,
+    "DMC": 200,
+    "Li": 40,
+    "PF6": 40
+  },
+  "T": [
+    298.15,
+    333.15
+  ],
+  "density": 1.29,
+  "exp": "sigma=11.7/19.5 mS/cm (298/333 K); eta=3.4 cP",
+  "pdb": "artifacts/exp_systems/BF-10EC-10DMC-2LiPF6.pdb",
+  "box_A": 39.07192991610498,
+  "atoms": 4720,
+  "bonds": 4440,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.161
+}

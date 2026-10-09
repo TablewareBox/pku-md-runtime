@@ -1,0 +1,22 @@
+{
+  "system_id": "BF-98EC-127DMC-83EMC-43Li-43PF6",
+  "counts": {
+    "DMC": 127,
+    "EC": 98,
+    "EMC": 83,
+    "Li": 43,
+    "PF6": 43
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.27,
+  "exp": "rho=1.27 g/mL; ratio DMC:EC:EMC:LiPF6 127:98:83:43",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-98EC-127DMC-83EMC-43Li-43PF6.pdb",
+  "box_A": 37.13253812858024,
+  "atoms": 4093,
+  "bonds": 3797,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.143
+}

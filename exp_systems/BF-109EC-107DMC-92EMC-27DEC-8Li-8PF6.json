@@ -1,0 +1,23 @@
+{
+  "system_id": "BF-109EC-107DMC-92EMC-27DEC-8Li-8PF6",
+  "counts": {
+    "EC": 109,
+    "DMC": 107,
+    "EMC": 92,
+    "DEC": 27,
+    "Li": 8,
+    "PF6": 8
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.136,
+  "exp": "rho=1.136 g/mL; ratio EC:DMC:EMC:DEC:LiPF6 109:107:92:27:8",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-109EC-107DMC-92EMC-27DEC-8Li-8PF6.pdb",
+  "box_A": 37.78663307106147,
+  "atoms": 4304,
+  "bonds": 4062,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.0224
+}

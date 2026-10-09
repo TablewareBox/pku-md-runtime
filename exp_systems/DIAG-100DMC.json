@@ -1,0 +1,18 @@
+{
+  "system_id": "DIAG-100DMC",
+  "counts": {
+    "DMC": 100
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.07,
+  "exp": "",
+  "pdb": "artifacts/exp_systems/DIAG-100DMC.pdb",
+  "box_A": 24.950757159859855,
+  "atoms": 1200,
+  "bonds": 1100,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 0.9630000000000001
+}

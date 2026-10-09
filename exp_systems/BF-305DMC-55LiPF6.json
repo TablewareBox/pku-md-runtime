@@ -1,0 +1,24 @@
+{
+  "system_id": "BF-305DMC-55LiPF6",
+  "counts": {
+    "DMC": 305,
+    "Li": 55,
+    "PF6": 55
+  },
+  "T": [
+    273.15,
+    283.15,
+    293.15,
+    303.15,
+    313.15
+  ],
+  "density": 1.21,
+  "exp": "sigma DMC:LiPF6 305:55; packing density estimated",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-305DMC-55LiPF6.pdb",
+  "box_A": 37.944738505367305,
+  "atoms": 4100,
+  "bonds": 3685,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.089
+}

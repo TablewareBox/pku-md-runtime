@@ -1,0 +1,18 @@
+{
+  "system_id": "PURE-184GBL",
+  "counts": {
+    "GBL": 184
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.129,
+  "exp": "PhyNEO Fig 3a; packing density 1.129 g/mL",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/PURE-184GBL.pdb",
+  "box_A": 29.58178406365871,
+  "atoms": 2208,
+  "bonds": 2208,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.0161
+}

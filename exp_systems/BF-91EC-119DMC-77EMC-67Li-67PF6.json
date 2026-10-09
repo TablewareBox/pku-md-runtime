@@ -1,0 +1,22 @@
+{
+  "system_id": "BF-91EC-119DMC-77EMC-67Li-67PF6",
+  "counts": {
+    "DMC": 119,
+    "EC": 91,
+    "EMC": 77,
+    "Li": 67,
+    "PF6": 67
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.351,
+  "exp": "rho=1.351 g/mL; ratio DMC:EC:EMC:LiPF6 119:91:77:67",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-91EC-119DMC-77EMC-67Li-67PF6.pdb",
+  "box_A": 36.94546098045719,
+  "atoms": 4029,
+  "bonds": 3699,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.2159
+}

@@ -1,0 +1,21 @@
+{
+  "system_id": "BF-13EC-13DMC-2LiPF6",
+  "counts": {
+    "EC": 260,
+    "DMC": 260,
+    "Li": 40,
+    "PF6": 40
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.25,
+  "exp": "sigma=12.0 mS/cm",
+  "pdb": "artifacts/exp_systems/BF-13EC-13DMC-2LiPF6.pdb",
+  "box_A": 42.6044493060906,
+  "atoms": 6040,
+  "bonds": 5700,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.125
+}

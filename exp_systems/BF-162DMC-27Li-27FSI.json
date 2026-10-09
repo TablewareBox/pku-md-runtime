@@ -1,0 +1,20 @@
+{
+  "system_id": "BF-162DMC-27Li-27FSI",
+  "counts": {
+    "DMC": 162,
+    "Li": 27,
+    "FSI": 27
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.25,
+  "exp": "rho=1.25 g/mL; ratio DMC:LiFSI 6:1; PhyNEO Fig 3d; packing density interpolated",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-162DMC-27Li-27FSI.pdb",
+  "box_A": 30.72140413709232,
+  "atoms": 2214,
+  "bonds": 1998,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.125
+}

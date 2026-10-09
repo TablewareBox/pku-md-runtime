@@ -1,0 +1,21 @@
+{
+  "system_id": "BF-170EC-166DMC-15LiPF6",
+  "counts": {
+    "EC": 170,
+    "DMC": 166,
+    "Li": 15,
+    "PF6": 15
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.235,
+  "exp": "rho=1.235 g/mL; eta=2.219 cP; sigma=12.142 mS/cm",
+  "pdb": "artifacts/exp_systems/BF-170EC-166DMC-15LiPF6.pdb",
+  "box_A": 36.369785148737506,
+  "atoms": 3812,
+  "bonds": 3616,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.1115000000000002
+}

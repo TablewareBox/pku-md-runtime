@@ -1,0 +1,21 @@
+{
+  "system_id": "BF-3EC-3DMC-2LiFSI",
+  "counts": {
+    "EC": 120,
+    "DMC": 120,
+    "Li": 80,
+    "FSI": 80
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.43,
+  "exp": "eta=36.9 cP; sigma=4.5 mS/cm",
+  "pdb": "artifacts/exp_systems/BF-3EC-3DMC-2LiFSI.pdb",
+  "box_A": 36.06019339836701,
+  "atoms": 3440,
+  "bonds": 3160,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.287
+}

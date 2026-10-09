@@ -1,0 +1,18 @@
+{
+  "system_id": "PURE-220EC",
+  "counts": {
+    "EC": 220
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.321,
+  "exp": "PhyNEO Fig 3a; packing density 1.321 g/mL; Fig 3c also reports 280/300/320/340 K",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/PURE-220EC.pdb",
+  "box_A": 30.021683639808938,
+  "atoms": 2200,
+  "bonds": 2200,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.1889
+}

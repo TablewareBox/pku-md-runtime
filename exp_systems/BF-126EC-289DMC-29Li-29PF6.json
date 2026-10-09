@@ -1,0 +1,21 @@
+{
+  "system_id": "BF-126EC-289DMC-29Li-29PF6",
+  "counts": {
+    "DMC": 289,
+    "EC": 126,
+    "Li": 29,
+    "PF6": 29
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.223,
+  "exp": "rho=1.223 g/mL; ratio DMC:EC:LiPF6 289:126:29",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-126EC-289DMC-29Li-29PF6.pdb",
+  "box_A": 39.71859369008904,
+  "atoms": 4960,
+  "bonds": 4613,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.1007
+}

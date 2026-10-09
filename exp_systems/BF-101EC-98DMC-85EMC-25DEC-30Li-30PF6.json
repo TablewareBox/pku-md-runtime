@@ -1,0 +1,23 @@
+{
+  "system_id": "BF-101EC-98DMC-85EMC-25DEC-30Li-30PF6",
+  "counts": {
+    "EC": 101,
+    "DMC": 98,
+    "EMC": 85,
+    "DEC": 25,
+    "Li": 30,
+    "PF6": 30
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.214,
+  "exp": "rho=1.214 g/mL; ratio EC:DMC:EMC:DEC:LiPF6 101:98:85:25:30",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-101EC-98DMC-85EMC-25DEC-30Li-30PF6.pdb",
+  "box_A": 37.276215805562074,
+  "atoms": 4151,
+  "bonds": 3883,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.0926
+}

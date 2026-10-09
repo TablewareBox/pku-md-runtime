@@ -1,0 +1,21 @@
+{
+  "system_id": "BF-170EC-388DMC-50Li-50PF6",
+  "counts": {
+    "DMC": 388,
+    "EC": 170,
+    "Li": 50,
+    "PF6": 50
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.228,
+  "exp": "rho=1.228 g/mL; ratio DMC:EC:LiPF6 388:170:50",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-170EC-388DMC-50Li-50PF6.pdb",
+  "box_A": 44.211261079096815,
+  "atoms": 6756,
+  "bonds": 6268,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.1052
+}

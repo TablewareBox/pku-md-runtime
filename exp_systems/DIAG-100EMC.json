@@ -1,0 +1,18 @@
+{
+  "system_id": "DIAG-100EMC",
+  "counts": {
+    "EMC": 100
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.01,
+  "exp": "",
+  "pdb": "artifacts/exp_systems/DIAG-100EMC.pdb",
+  "box_A": 26.691848302704035,
+  "atoms": 1500,
+  "bonds": 1400,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 0.909
+}

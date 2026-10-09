@@ -1,0 +1,22 @@
+{
+  "system_id": "BF-204EC-184DMC-18EMC-41Li-41PF6",
+  "counts": {
+    "EC": 204,
+    "DMC": 184,
+    "EMC": 18,
+    "Li": 41,
+    "PF6": 41
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.3,
+  "exp": "rho=1.3 g/mL; ratio EC:DMC:EMC:LiPF6 204:184:18:41",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-204EC-184DMC-18EMC-41Li-41PF6.pdb",
+  "box_A": 39.26109289194148,
+  "atoms": 4846,
+  "bonds": 4562,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.1700000000000002
+}

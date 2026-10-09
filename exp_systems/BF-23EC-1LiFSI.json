@@ -1,0 +1,20 @@
+{
+  "system_id": "BF-23EC-1LiFSI",
+  "counts": {
+    "EC": 460,
+    "Li": 20,
+    "FSI": 20
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.36,
+  "exp": "eta=4.1 cP; sigma=8.7 mS/cm",
+  "pdb": "artifacts/exp_systems/BF-23EC-1LiFSI.pdb",
+  "box_A": 39.155284155721425,
+  "atoms": 4800,
+  "bonds": 4760,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.2240000000000002
+}

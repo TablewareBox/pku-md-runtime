@@ -1,0 +1,21 @@
+{
+  "system_id": "BF-179EC-179DMC-27LiPF6",
+  "counts": {
+    "EC": 179,
+    "DMC": 179,
+    "Li": 27,
+    "PF6": 27
+  },
+  "T": [
+    293.15
+  ],
+  "density": 1.25,
+  "exp": "sigma=10.80 mS/cm at 293 K; packing density estimated",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-179EC-179DMC-27LiPF6.pdb",
+  "box_A": 37.591201800959176,
+  "atoms": 4154,
+  "bonds": 3921,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.125
+}

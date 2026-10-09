@@ -1,0 +1,21 @@
+{
+  "system_id": "BF-249DMC-170EC-34LiPF6",
+  "counts": {
+    "EC": 170,
+    "DMC": 249,
+    "Li": 34,
+    "PF6": 34
+  },
+  "T": [
+    298.15
+  ],
+  "density": 1.239,
+  "exp": "rho=1.239 g/mL; eta=2.778 cP",
+  "pdb": "artifacts/exp_systems/BF-249DMC-170EC-34LiPF6.pdb",
+  "box_A": 39.87141857148042,
+  "atoms": 4960,
+  "bonds": 4643,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 1.1151000000000002
+}

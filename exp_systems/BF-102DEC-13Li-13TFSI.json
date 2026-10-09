@@ -1,0 +1,20 @@
+{
+  "system_id": "BF-102DEC-13Li-13TFSI",
+  "counts": {
+    "DEC": 102,
+    "Li": 13,
+    "TFSI": 13
+  },
+  "T": [
+    293.15
+  ],
+  "density": 1.1,
+  "exp": "exact half of conductivity BF-204DEC-26Li-26TFSI (204:26); packing density 0.9 of the 1.10 g/mL estimate",
+  "pdb": "/home/changjh/MD_projects/DeePDih/artifacts/exp_systems/BF-102DEC-13Li-13TFSI.pdb",
+  "box_A": 29.80248534667741,
+  "atoms": 2044,
+  "bonds": 1916,
+  "tolerance_A": 2.0,
+  "seed": 20261008,
+  "packing_density_g_mL": 0.9900000000000001
+}
