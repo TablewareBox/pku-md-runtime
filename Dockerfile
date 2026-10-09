@@ -31,15 +31,15 @@ RUN sed -i \
         ca-certificates curl git bzip2 \
     && rm -rf /var/lib/apt/lists/*
 
+ENV PATH=${CONDA_DIR}/envs/md/bin:${CONDA_DIR}/bin:${PATH}
+
 RUN curl -fL --retry 5 --retry-all-errors -o /tmp/miniforge.sh \
         https://mirrors.tuna.tsinghua.edu.cn/github-release/conda-forge/miniforge/LatestRelease/Miniforge3-Linux-x86_64.sh \
     && bash /tmp/miniforge.sh -b -p "$CONDA_DIR" \
     && rm /tmp/miniforge.sh \
-    && (conda config --system --remove channels defaults || true) \
-    && conda config --system --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge \
-    && conda config --system --set channel_priority strict
-
-ENV PATH=${CONDA_DIR}/envs/md/bin:${CONDA_DIR}/bin:${PATH}
+    && ("$CONDA_DIR/bin/conda" config --system --remove channels defaults || true) \
+    && "$CONDA_DIR/bin/conda" config --system --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge \
+    && "$CONDA_DIR/bin/conda" config --system --set channel_priority strict
 
 RUN conda create -y -n md \
         python=3.11.17 \
